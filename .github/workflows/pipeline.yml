@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: 18
       - name: Install dependences
-        run: npm install --no-audit --no-fund --no-optional
+        run: npm ci
       - name: Lint
         run: npm run eslint
       - name: Build
